@@ -1,0 +1,28 @@
+.Product{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(199, 197, 197);
+    margin-right:5px ;
+    /* grid-template-columns: 1fr 3fr; */
+
+}
+.ProductName{
+    color: rgb(100, 83, 250);
+}
+.textProduct{
+    text-align: left;
+}
+.ProductButton{
+    cursor:pointer;
+    width: 35%;
+    line-height: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    background-color: rgb(253, 194, 84);
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}

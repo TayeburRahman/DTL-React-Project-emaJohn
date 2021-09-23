@@ -1,0 +1,17 @@
+.cart-container{
+    
+}
+.cart-left{
+    /* position:fixed ; */
+    width: 100%;
+    margin-right: 100px;
+
+}
+.cart-het{
+    /* margin-left: 50px; */
+
+
+}
+.prousctTotal{
+    text-align: left;
+}

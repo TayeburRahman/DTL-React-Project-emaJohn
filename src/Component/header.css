@@ -1,0 +1,17 @@
+.HeaderLogo{
+    margin: 15px;
+}
+.navMenu{
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+}
+.navMenu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+}
+.navMenu a:hover{
+    background-color: lightgrey;
+}
