@@ -2,16 +2,18 @@
     
 }
 .cart-left{
-    /* position:fixed ; */
+    /*margin-left: 50px;
+    */position:fixed ;
     width: 100%;
-    margin-right: 100px;
-
-}
-.cart-het{
-    /* margin-left: 50px; */
-
-
+    border:2px solid #00a1fff5;
+    background-color: rgb(189, 223, 0);
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
 }
 .prousctTotal{
+    margin: 15px;
     text-align: left;
 }

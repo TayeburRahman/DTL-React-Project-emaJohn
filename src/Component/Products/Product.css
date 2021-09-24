@@ -26,3 +26,7 @@
     -ms-border-radius:;
     -o-border-radius:;
 }
+.product-ditels{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+}
