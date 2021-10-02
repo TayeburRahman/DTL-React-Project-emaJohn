@@ -9,7 +9,7 @@ import { noAuto } from '@fortawesome/fontawesome-svg-core';
 
 // stp.2> map product lod no.2
 const Product = (props) => {
-    const {name, stock, star, img, category, key, price}= props.product;
+    const {name, stock, star, img, category, price}= props.product;
 
     const element = <FontAwesomeIcon icon={faShoppingCart} />
 
@@ -25,13 +25,13 @@ const Product = (props) => {
                         <h5>by: {category}</h5>
                         <h4>${price}</h4>
                     </div>
-                <div> 
+                    <div> 
                     <Rating
                         initialRating={star}
                         emptySymbol="far fa-star"
                         fullSymbol="fas fa-star">
                     </Rating>
-                </div>
+                    </div>
                     
                 </div>
                 <p>only {stock} left in stock - order soon</p> 

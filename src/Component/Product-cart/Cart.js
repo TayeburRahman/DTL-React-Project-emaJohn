@@ -6,6 +6,7 @@ import './Cart.css'
 //stp.3> hendl add to cart buttos (price) No.5
 const Cart = (props) => {
     const {cart}= props;
+    console.log(props.children)
     //prouduct Cart price Cart / item count cart
     let totalQuantity =0;
     let total =0;
@@ -30,6 +31,7 @@ const Cart = (props) => {
                     <p>Tex: {tax.toFixed(2)}</p>
                     <h3>Grand Total: {GrandTotal.toFixed(2)}</h3>
                     <h2>Total: {total.toFixed(2)}</h2>
+                    {props.children}
                     </div>
                 </div>    
             </div>
