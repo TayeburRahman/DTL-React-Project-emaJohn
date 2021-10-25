@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { RingContext } from '../../App';
 
-const Inventory = () => {
+const Inventory = (props) => {
+    const ornaments = useContext(RingContext);
     return (
         <div>
-            This is Inventory
+            <h1>This is Inventory</h1>
+            {ornaments}
+
         </div>
     );
 };
