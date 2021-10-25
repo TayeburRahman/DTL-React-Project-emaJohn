@@ -6,11 +6,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Order from "./Component/Oder-review/Order";
 import Inventory from "./Component/Inventory/Inventory";
 import Placeoder from "./Component/placeOder/placeOder";
+import Notfound from "./Component/NotFound/Notfound";
+import { createContext} from "react";
 
+export const RingContext = createContext()
 
 function App() {
+  const Ornaments = 'gold ring'
   return (
     <div className="App">
+      <RingContext.Provider value={Ornaments}>
       <Header></Header>
       <Router>
         <Switch>
@@ -29,8 +34,12 @@ function App() {
           <Route path="/placeoder">
             <Placeoder></Placeoder>
           </Route>
+          <Route path="*">
+            <Notfound></Notfound>
+          </Route>
         </Switch>
       </Router>
+      </RingContext.Provider>
     </div>
   );
 }
